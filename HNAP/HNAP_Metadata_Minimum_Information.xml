@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+DISCLAIMER: 
+This metadata file is intended to serve as an example only. It is not an official metadata record.
+Texts, points of contact, etc, were not reviewed and do not engage any cited party
+AVIS : 
+Ce fichier de métadonnée a été préparé pour fins d'exemple seulement. Il ne s'agit pas d'un fichier de métadonnées officiel.
+Le contenu des textes, les points de contacts etc, n'ont pas été vérifiés et n'engagent pas les parties citées. 
+-->
+<!-- [THE FOLLOWING HEADER IS SPECIFIC TO A HNAP METADATA FILE. IT MUST BE USED FOR ALL METADATA FILES TO BE IMPORTED IN THE FGP CATALOGUE]
+     [L'EN-TÊTE SUIVANT EST SPÉCIFIQUE À UN FICHIER DE MÉTADONNÉES HNAP. IL DOIT ÊTRE UTILISÉ POUR TOUS LES FICHIERS DE MÉTADONNÉES À ÊTRE IMPORTÉS DANS LE CATALOGUE PGF.] -->
+<gmd:MD_Metadata
+  xmlns="http://www.isotc211.org/2005/gmd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:gco="http://www.isotc211.org/2005/gco"
+  xmlns:gfc="http://www.isotc211.org/2005/gfc"
+  xmlns:gmd="http://www.isotc211.org/2005/gmd"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:gmi="http://www.isotc211.org/2005/gmi" 
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gmx="http://www.isotc211.org/2005/gmx"
+  xmlns:gsr="http://www.isotc211.org/2005/gsr"
+  xmlns:gss="http://www.isotc211.org/2005/gss" 
+  xmlns:gts="http://www.isotc211.org/2005/gts"
+  xmlns:srv="http://www.isotc211.org/2005/srv"
+  xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd">
+  <gmd:fileIdentifier>
+  <!-- [XLS-Line ID-1] [SPECIFIC] [UNIVERSAL UNIQUE IDENTIFIER (UUID) GENERATED ACCORDING TO ISO/IEC 9834-8:2005 USING VERSION 4 (RANDOM) OR VERSION 5 (SHA-1 hash) VARIANTS / IDENTIFIANT UNIQUE UNIVERSEL (IDUU) GÉNÉRÉ SELON ISO/IEC 9834-8:2005 EN UTILISANT LA VERSION 4 (ALÉATOIRE) OU LES VARIANTES (SHA-1 hash) DE LA VERSION 5.] -->
+ 		<gco:CharacterString>74738ff5-5367-5958-9aee-98fffdcd1876</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+  <!-- [XLS-Line ID-2] [FIXED] [LANGUAGE CODE AND COUNTRY OF THE INITIAL METADATA LANGUAGE ENG; CAN OR FRA; CAN / CODE DE LA LANGUE ET DU PAYS DE LA LANGUE INITIALE DE LA MÉTADONNÉE "eng; CAN" OU "fra; CAN"] -->
+		<gco:CharacterString>eng; CAN</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+  <!-- [XLS-Line ID-3] [FIXED] [ENCODING OF THE METADATA RECORD MUST BE "utf8; utf8" / L'ENCODAGE DE L'ENREGISTREMENT DE LA MÉTADONNÉ DOIT ÊTRE "utf8; utf8"] -->
+		<gmd:MD_CharacterSetCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95" codeListValue="RI_458">utf8; utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+  <!-- [XLS-Line ID-4] [SPECIFIC] [HIERARCHY LEVEL VALUES TYPICALLY ARE "dataset; jeuDonnées" OR "series; série" / LES VALEURS DU NIVEAU DE HIÉRACHIE SONT TYPIQUEMENT "dataset; jeuDonnées" OU "series; série"] 
+       [DON'T FORGET TO CHANGE THE codeListValue attribue AS WELL AS THE TEXT ITSELF / NE PAS OUBLIER DE METTRE À JOUR L'ATTRIBUT CodeListValue EN MÊME TEMPS QUE LE TEXTE]  -->
+    <gmd:MD_ScopeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108" codeListValue="RI_622">dataset; jeuDonnées</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <!-- [XLS-Line ID-5] [SPECIFIC] [ENTER THE ENGLISH ORGANISATION NAME RESPONSIBLE FOR THE METADATA RECORD / ÉCRIRE LE NOM ANGLAIS DE L'ORGANISATION RESPONSABLE DES MÉTADONNÉES] 
+             [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+             [Use "Government of Canada; English Applied Title" format / Utlilisez le format "Government of Canada; Nom d'usage en anglais "] -->
+        <gco:CharacterString>Government of Canada; Natural resources Canada </gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <!-- [XLS-Line ID-6] [SPECIFIC] [ENTER THE FRENCH ORGANISATION NAME RESPONSIBLE FOR THE METADATA RECORD / ÉCRIRE LE NOM FRANÇAIS DE L'ORGANISATION RESPONSABLE DES MÉTADONNÉES] 
+                 [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+                 [Use "Gouvernement du Canada; French Applied Title" format / Utlilisez le format "Gouvernement du Canada; Nom d'usage en français"] -->
+            <gmd:LocalisedCharacterString locale="#fra">Gouvernement du Canada; Ressources Naturelles Canada</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <!-- [XLS-Line ID-7] [SPECIFIC] [ENTER THE EMAIL OF THE ORGANISATION RESPONSIBLE FOR THE METADATA RECORD / ÉCRIRE LE COURRIEL DE L'ORGANISATION RESPONSABLE DES MÉTADONNÉES] -->
+                <gco:CharacterString>contact@canada.ca</gco:CharacterString>
+              </gmd:electronicMailAddress>
+              <!-- [XLS-Line ID-7-8] [SPECIFIC] [IF FRENCH / ENGLISH EMAILS ARE DIFFERENT REPLACE BY / SI LES COURRIELS FRANÇAIS ET ANGLAIS SONT DIFFÉRENTS, REMPLACER PAR : 
+              <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>english_email@canada.ca</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#fra">courriel_francais@canada.ca</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:electronicMailAddress>] -->
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+	   <!-- [XLS-Line ID-9] [SPECIFIC] [ROLE OF THE ORGANISATION - SUGGESTION: "pointOfContact; contact" / RÔLE DE L'ORGANISATION - SUGGESTION : "pointOfContact; contact] 
+	   [DON'T FORGET TO CHANGE THE codeListValue attribue AS WELL AS THE TEXT ITSELF / NE PAS OUBLIER DE METTRE À JOUR L'ATTRIBUT CodeListValue EN MÊME TEMPS QUE LE TEXTE] -->
+        <gmd:CI_RoleCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact; contact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <!-- [XLS-Line ID-10] [SPECIFIC] [ENTER THE DATE THE METADATA RECORD IS CREATED / ÉCRIRE LA DATE DE CRÉATION DES MÉTADONNÉES] -->
+    <gco:Date>2014-12-10</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xsi:type="gmd:PT_FreeText_PropertyType">
+     <!-- [XLS-Line ID-11] [FIXED] [METADATA STANDARD ENGLISH NAME  - ACTUAL VALUE IS "North American Profile of ISO 19115:2003 - Geographic information - Metadata" / NOM ANGLAIS	DE LA NORME DE LA MÉTADONNÉE - LA VALEUR ACTUELLE EST "North American Profile of ISO 19115:2003 - Geographic information - Metadata"] -->
+    <gco:CharacterString>North American Profile of ISO 19115:2003 - Geographic information - Metadata</gco:CharacterString>
+    <gmd:PT_FreeText>
+      <gmd:textGroup>
+	    <!-- [XLS-Line ID-12] [FIXED] [METADATA STANDARD FRENCH NAME  - ACTUAL VALUE IS "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées" / NOM FRANÇAIS	DE LA NORME DE LA MÉTADONNÉE - LA VALEUR ACTUELLE EST "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"] -->
+        <gmd:LocalisedCharacterString locale="#fra">Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées</gmd:LocalisedCharacterString>
+      </gmd:textGroup>
+    </gmd:PT_FreeText>
+  </gmd:metadataStandardName>
+  <gmd:locale>
+    <gmd:PT_Locale id="fra">
+      <gmd:languageCode>
+	    <!-- [XLS-Line ID-13] [FIXED] [SECOND METADATA LANGUAGE "Anglais; English OR French; Français" / DEUXIÈME LANGUE DE LA MÉTADONNÉE "Anglais; English OU French; Français"] -->
+        <gmd:LanguageCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116" codeListValue="fra">French; français</gmd:LanguageCode>
+      </gmd:languageCode>
+      <gmd:country>
+	    <!-- [XLS-Line ID-14] [FIXED] [COUNTRY OF THE SECOND LANGUAGE - ACTUAL VALUE IS "Canada; Canada" / PAYS DE LA SECONDE LANGUE - LA VALEUR ACTUELLE EST "Canada; Canada"] -->
+        <gmd:Country codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117" codeListValue="CAN">Canada; Canada</gmd:Country>
+      </gmd:country>
+      <gmd:characterEncoding>
+	    <!-- [XLS-Line ID-15] [FIXED] [ENCODING OF THE SECOND LANGUAGE - ACTUAL VALUE IS "utf8; utf8" / L'ENCODAGE DE LA SECONDE LANGUE - LA VALEUR ACTUELLE EST "utf8; utf8"] -->
+        <gmd:MD_CharacterSetCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95" codeListValue="RI_458">utf8; utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <!-- [XLS-Line ID-16] [SPECIFIC] [ENTER EPSG CODE OF THE PROJECTION / ÉCRIRE LE CODE EPSG DE LA PROJECTION] 
+                 [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+                 [Use "EPSG:1111" format / Utiliser le format "EPSG:1111"] -->
+            <gco:CharacterString>EPSG:7875</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <!-- [XLS-Line ID-17] [SPECIFIC] [ENTER EPSG CODESPACE OF THE PROJECTION / ÉCRIRE LE CODESPACE EPSG DE LA PROJECTION] 
+                 [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+                 [For EPSG projection use : "http://www.epsg-registry.org" / Utiliser le texte "http://www.epsg-registry.org" pour des projections de type EPSG] -->
+            <gco:CharacterString>http://www.epsg-registry.org</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <!-- [XLS-Line ID-18] [SPECIFIC] [ENTER EPSG VERSION OF THE PROJECTION / ÉCRIRE LA VERSION EPSG DE LA PROJECTION] 
+                 [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] -->
+		     <gco:CharacterString>8.6.2</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <!-- [XLS-Line ID-19] [SPECIFIC] [ENTER THE ENGLISH TITLE OF THE DATASET / ÉCRIRE LE NOM EN ANGLAIS DU JEU DE DONNÉES] -->
+            <gco:CharacterString>Dummy dataset used for example</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <!-- [XLS-Line ID-20] [SPECIFIC] [ENTER THE FRENCH TITLE OF THE DATASET / ÉCRIRE LE NOM EN FRANÇAIS DU JEU DE DONNÉES] -->
+                <gmd:LocalisedCharacterString locale="#fra">Jeu de données bidon servant d'exemple</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <!-- [XLS-Line ID-21] [SPECIFIC] [ENTER THE CREATION DATE OF THE DATASET / ÉCRIRE LA DATE DE CRÉATION DU JEU DE DONNÉES] 
+                     [Use "YYYY-MM-DD", "YYYY-MM" or "YYYY" format / Utiliser le format "AAAA-MM-JJ", "AAAA-MM" ou "AAAA"] -->
+                <gco:Date>2014-12-09</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+			    <!-- [XLS-Line ID-22] [FIXED] [DATE TYPE - ACTUAL VALUE IS "creation; création" / TYPE DE DATE - LA VALEUR ACTUELLE EST "creation; création"] -->
+                <gmd:CI_DateTypeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation; création</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <!-- [XLS-Line ID-23] [SPECIFIC] [ENTER THE PUBLICATION DATE OF THE DATASET / ÉCRIRE LA DATE DE PUBLICATION DU JEU DE DONNÉES] 
+                     [Use "YYYY-MM-DD", "YYYY-MM" or "YYYY" format / Utiliser le format "AAAA-MM-JJ", "AAAA-MM" ou "AAAA"] -->
+                <gco:Date>2014-12-09</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+			    <!-- [XLS-Line ID-24] [FIXED] [DATE TYPE - ACTUAL VALUE IS "publication; publication" / TYPE DE DATE - LA VALEUR ACTUELLE EST "publication; publication"] -->
+                <gmd:CI_DateTypeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87" codeListValue="RI_367">publication; publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <!-- [XLS-Line ID-25] [SPECIFIC] [ENTER THE ENGLISH ORGANISATION NAME RESPONSIBLE FOR THE DATASET / ÉCRIRE LE NOM ANGLAIS DE L'ORGANISATION RESPONSABLE DES DONNÉES] 
+                     [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+                     [Use "Government of Canada; English Applied Title" format / Utlilisez le format "Government of Canada; Nom d'usage en anglais"] -->
+                <gco:CharacterString>Government of Canada; Natural resources Canada </gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <!-- [XLS-Line ID-26] [SPECIFIC] [ENTER THE FRENCH ORGANISATION NAME RESPONSIBLE FOR THE DATASET / ÉCRIRE LE NOM FRANÇAIS DE L'ORGANISATION RESPONSABLE DES DONNÉES] 
+                         [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+                         [Use "Gouvernement du Canada; French Applied Title" format / Utlilisez le format "Gouvernement du Canada; Nom d'usage en français"] -->
+                    <gmd:LocalisedCharacterString locale="#fra">Gouvernement du Canada; Ressources Naturelles Canada</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <!-- [XLS-Line ID-27] [SPECIFIC] [ENTER THE EMAIL OF THE ORGANISATION RESPONSIBLE FOR THE DATASET / ÉCRIRE LE COURRIEL DE L'ORGANISATION RESPONSABLE DES DONNÉES] -->
+                        <gco:CharacterString>contact@canada.ca</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                      <!-- [XLS-Line ID-27-28] [SPECIFIC] [IF FRENCH / ENGLISH EMAILS ARE DIFFERENT REPLACE BY / SI LES COURRIELS FRANÇAIS ET ANGLAIS SONT DIFFÉRENTS, REMPLACER PAR : 
+                      <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                         <gco:CharacterString>english_email@canada.ca</gco:CharacterString>
+                         <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                               <gmd:LocalisedCharacterString locale="#fra">courriel_francais@canada.ca</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                         </gmd:PT_FreeText>
+                      </gmd:electronicMailAddress>] -->
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+	            <!-- [XLS-Line ID-29] [SPECIFIC] [ROLE OF THE ORGANISATION - SUGGESTION: "pointOfContact; contact" / RÔLE DE L'ORGANISATION - SUGGESTION : "pointOfContact; contact] 
+				[DON'T FORGET TO CHANGE THE codeListValue attribue AS WELL AS THE TEXT ITSELF / NE PAS OUBLIER DE METTRE À JOUR L'ATTRIBUT CodeListValue EN MÊME TEMPS QUE LE TEXTE]  -->
+                <gmd:CI_RoleCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact; contact</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+         </gmd:CI_Citation>
+     </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <!-- [XLS-Line ID-30] [SPECIFIC] [ENTER AN ENGLISH ABSTRACT FOR THE DATASET / ÉCRIRE UN RÉSUMÉ EN ANGLAIS DU JEU DE DONNÉES] -->
+        <gco:CharacterString>The dataset illustrates, etc. </gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <!-- [XLS-Line ID-31] [SPECIFIC] [ENTER AN FRENCH ABSTRACT FOR THE DATASET / ÉCRIRE UN RÉSUMÉ EN FRANÇAIS DU JEU DE DONNÉES] -->
+            <gmd:LocalisedCharacterString locale="#fra">Ce jeu de données décrit.... </gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:status>
+        <!-- [XLS-Line ID-32] [SPECIFIC] [USE APPROPRIATE CODE / UTILISER LE CODE APPROPRIÉ] 
+             [DON'T FORGET TO CHANGE THE codeListValue attribue AS WELL AS THE TEXT ITSELF / NE PAS OUBLIER DE METTRE À JOUR L'ATTRIBUT CodeListValue EN MÊME TEMPS QUE LE TEXTE]  -->
+       <gmd:MD_ProgressCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106" codeListValue="RI_593">completed; complété</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <!-- [XLS-Line ID-33] [SPECIFIC] [USE APPROPRIATE CODE / UTILISER LE CODE APPROPRIÉ] 
+                 [DON'T FORGET TO CHANGE THE codeListValue attribue AS WELL AS THE TEXT ITSELF / NE PAS OUBLIER DE METTRE À JOUR L'ATTRIBUT CodeListValue EN MÊME TEMPS QUE LE TEXTE]  -->
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102" codeListValue="RI_543">unknown; inconnu</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <!-- [XLS-Line ID-34] [SPECIFIC] [ENTER THE ENGLISH KEYWORD FROM CORE SUBJECT THESAURUS / ÉCRIRE UN MOT-CLÉ ANGLAIS PROVENANT DU THESAURUS DES SUJETS DE BASE]
+                 [See HNAP document for thesaurus address and format to use / Voir le document HNAP pour l'adresse du thesaurus et le format à utiliser] -->
+            <gco:CharacterString>Invasive species</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <!-- [XLS-Line ID-35] [SPECIFIC] [ENTER THE FRENCH KEYWORD FROM CORE SUBJECT THESAURUS / ÉCRIRE UN MOT-CLÉ FRANÇAIS PROVENANT DU THESAURUS DES SUJETS DE BASE]
+                 [See HNAP document for thesaurus address and format to use / Voir le document HNAP pour l'adresse du thesaurus et le format à utiliser] -->
+                <gmd:LocalisedCharacterString locale="#fra">Espèce envahissante</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+		  <gmd:type>
+          <!-- [XLS-Line ID-36]  [FIXED] [OPTIONAL FOR HNAP]-->
+		    <gmd:MD_KeywordTypeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101" codeListValue="RI_528">theme; thème</gmd:MD_KeywordTypeCode>
+		  </gmd:type>
+          <gmd:thesaurusName>
+		    <!-- [ALL VALUES WHITHIN THE THESAURUSNAME ELEMENT ARE DEFAULT VALUES - THEY MUST APPEAR AS IS / TOUTES LES VALEURS À L'INTÉRIEUR DE L'ÉLÉMENT THESAURUSNAME
+			SONT DES VALEURS PAR DÉFAUT - ELLES DOIVENT APPARAÎTRE TEL QUEL] -->
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+			  <!-- [XLS-Line ID-37] [FIXED] -->
+                <gco:CharacterString>Government of Canada Core Subject Thesaurus</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+				  <!-- [XLS-Line ID-38] [FIXED] -->
+                    <gmd:LocalisedCharacterString locale="#fra">Thésaurus des sujets de base du gouvernement du Canada</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+				  <!-- [XLS-Line ID-39] [FIXED] -->
+                    <gco:Date>2004</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+				  <!-- [XLS-Line ID-40] [FIXED] -->
+                    <gmd:CI_DateTypeCode codeListValue="RI_366" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">creation; création</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>              
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+				  <!-- [XLS-Line ID-41] [FIXED] -->
+                    <gco:Date>2016-04-21</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+				  <!-- [XLS-Line ID-42] [FIXED] -->
+                    <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+				  <!-- [XLS-Line ID-43] [FIXED] -->
+                    <gco:CharacterString>Government of Canada; Library and Archives Canada</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <!-- [XLS-Line ID-44] [FIXED] -->
+                        <gmd:LocalisedCharacterString locale="#fra">Gouvernement du Canada; Bibliothèque et Archives Canada</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:organisationName>
+                  <gmd:role>
+				  <!-- [XLS-Line ID-45] [FIXED] -->
+                    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+	    <!-- [ALL VALUES WHITHIN THE RESOURCECONSTAINTS ELEMENT ARE DEFAULT VALUES - THEY MUST APPEAR AS IS / TOUTES LES VALEURS À L'INTÉRIEUR DE L'ÉLÉMENT RESOURCECONSTAINTS
+	    SONT DES VALEURS PAR DÉFAUT - ELLES DOIVENT APPARAÎTRE TEL QUEL] -->
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+		  <!-- [XLS-Line ID-46] [FIXED] -->
+            <gco:CharacterString>Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+			  <!-- [XLS-Line ID-47] [FIXED] -->
+                <gmd:LocalisedCharacterString locale="#fra">Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+		  <!-- [XLS-Line ID-48] [FIXED] -->
+            <gmd:MD_RestrictionCode codeListValue="RI_606" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">licence; licence</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+		  <!-- [XLS-Line ID-49] [FIXED] -->
+            <gmd:MD_RestrictionCode codeListValue="RI_606" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">licence; licence</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+	  	<!-- [XLS-Line ID-50] [SPECIFIC] [ENTER THE SPATIAL REPRESENTATION TYPE OF THE DATA / ENTRER LE TYPE DE REPRÉSENTATION SPATIALE DE LA DONNÉE] 
+             [DON'T FORGET TO CHANGE THE codeListValue attribue AS WELL AS THE TEXT ITSELF / NE PAS OUBLIER DE METTRE À JOUR L'ATTRIBUT CodeListValue EN MÊME TEMPS QUE LE TEXTE]  -->
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109" codeListValue="RI_635">vector; vecteur</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+	  	<!-- [XLS-Line ID-51] [SPECIFIC] [ENTER THE LANGUAGE OF THE DATA ACCORDING TO ISO 639-2/T STANDARD - REPEATE FOR EACH LANGUAGE WHEN DATA HAS MULTIPLE LANGUAGES / ENTRER LA LANGUE DE LA DONNÉE SELON LA NORME ISO 639-2/T - RÉPÉTER
+		POUR CHAQUE LANGUE QUAND LA DONNÉE CONTIENT PLUSIEURS LANGUES] -->
+        <gco:CharacterString>eng; CAN</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <!-- [XLS-Line ID-52] [SPECIFIC] [ENTER MAIN THEME (ENGLISH ONLY) OF THE DATA / ÉCRIRE LE THÈME PRINCIPAL (ANGLAIS SEULEMENT) CORRESPONDANT AUX DONNÉES] 
+		     [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] -->
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <!-- [ENTER BOUNDING BOX COORDINATES OF THE DATASET / ÉCRIRE LES COORDONNÉES DU RECTANGLE DE DÉLIMITATION DU JEU DE DONNÉES] -->
+              <gmd:westBoundLongitude>
+			  <!-- [XLS-Line ID-53] [SPECIFIC] -->
+                <gco:Decimal>-141.003</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+			  <!-- [XLS-Line ID-54] [SPECIFIC] -->
+                <gco:Decimal>-52.6380</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+			  <!-- [XLS-Line ID-55] [SPECIFIC] -->
+                <gco:Decimal>41.6766</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+			  <!-- [XLS-Line ID-56] [SPECIFIC] -->
+                <gco:Decimal>83.3362</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="tp1">
+                  <!-- [XLS-Line ID-57] [SPECIFIC] [ENTER BEGIN DATE CORRESPONDING TO THE DATA IN THE DATASET / ÉCRIRE LA DATE LA PLUS ANCIENNE CORRESPONDANT AUX DONNÉES]  
+                       [Use "YYYY-MM-DD", "YYYY-MM" or "YYYY" format / Utiliser le format "AAAA-MM-JJ", "AAAA-MM" ou "AAAA"] -->
+                  <gml:beginPosition>2014-03</gml:beginPosition>
+                  <!-- OPTIONAL / OPTIONNEL 
+                       [XLS-Line ID-58] [SPECIFIC] [ENTER END DATE CORRESPONDING TO THE DATA IN THE DATASET / ÉCRIRE LA DATE LA PLUS RÉCENTE CORRESPONDANT AUX DONNÉES]  
+                       [Use "YYYY-MM-DD", "YYYY-MM" or "YYYY" format / Utiliser le format "AAAA-MM-JJ", "AAAA-MM" ou "AAAA"] -->
+                  <!--  <gml:endPosition>2014-03</gml:endPosition> -->
+                  <gml:endPosition/>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <!-- [MINUMUM REQUIREMENT FOR FGP Y1 : WEB SERVICE. DUPLICATE FOR ANY OTHER FORMAT USED]
+             [SERVICE WEB REQUIS AU MINIMUM POUR L'AN1 DE PGF. AJOUTER D'AUTRES FORMATS AU BESOIN] -->
+        <gmd:MD_Format>
+          <gmd:name>
+            <!-- [XLS-Line ID-59] [SPECIFIC] [ENTER FORMAT OF THE SERVICE / ÉCRIRE LE FORMAT DU SERVICE]
+                 [Use "WMS" or "ESRI REST" / Utiliser "WMS" ou "ESRI REST"] -->
+            <gco:CharacterString>WMS</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <!-- [XLS-Line ID-60] [SPECIFIC] [ENTER VERSION OF THE SERVICE / ÉCRIRE LA VERSION DU SERVICE] -->
+            <gco:CharacterString>1.3.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <!-- [XLS-Line ID-61] [SPECIFIC] [ENTER THE ENGLISH ORGANISATION NAME RESPONSIBLE FOR DISTRIBUTING THE DATA / ÉCRIRE LE NOM ANGLAIS DE L'ORGANISATION RESPONSABLE DE LA DISTRIBUTION DES DONNÉES] 
+                     [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+                     [Use "Government of Canada; English Applied Title" format / Utlilisez le format "Government of Canada; Nom d'usage en anglais "] -->
+                <gco:CharacterString>Government of Canada; Natural resources Canada </gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <!-- [XLS-Line ID-62] [SPECIFIC] [ENTER THE FRENCH ORGANISATION NAME RESPONSIBLE FOR DISTRIBUTING THE DATA / ÉCRIRE LE NOM FRANÇAIS DE L'ORGANISATION RESPONSABLE DE LA DISTRIBUTION DES DONNÉES] 
+                         [See HNAP document for alternatives / Voir le document HNAP pour des alternatives] 
+                         [Use "Gouvernement du Canada; French Applied Title" format / Utlilisez le format "Gouvernement du Canada; Nom d'usage en français "] -->
+                    <gmd:LocalisedCharacterString locale="#fra">Gouvernement du Canada; Ressources Naturelles Canada</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <!-- [XLS-Line ID-63] [SPECIFIC] [ENTER THE EMAIL OF THE ORGANISATION RESPONSIBLE FOR DISTRIBUTING THE DATA / ÉCRIRE LE COURRIEL DE L'ORGANISATION RESPONSABLE DE LA DISTRIBUTION DES DONNÉES] -->
+                        <gco:CharacterString>contact@canada.ca</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                      <!-- [XLS-Line ID-63-64] [SPECIFIC][IF FRENCH / ENGLISH EMAILS ARE DIFFERENT REPLACE BY / SI LES COURRIELS FRANÇAIS ET ANGLAIS SONT DIFFÉRENTS, REMPLACER PAR : 
+                        <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>english_email@canada.ca</gco:CharacterString>
+                            <gmd:PT_FreeText>
+                              <gmd:textGroup>
+                                  <gmd:LocalisedCharacterString locale="#fra">courriel_francais@canada.ca</gmd:LocalisedCharacterString>
+                              </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                       </gmd:electronicMailAddress>] -->
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                 <!-- [XLS-Line ID-65] [SPECIFIC] [ENTER THE ROLE OF THE ORGANISATION - SUGGESTION: "distributor; distributeur" / ÉCRIRE LE RÔLE DE L'ORGANISATION - SUGGESTION: "distributor; distributeur"] 
+                 [DON'T FORGET TO CHANGE THE codeListValue attribue AS WELL AS THE TEXT ITSELF / NE PAS OUBLIER DE METTRE À JOUR L'ATTRIBUT CodeListValue EN MÊME TEMPS QUE LE TEXTE]  -->
+                <gmd:CI_RoleCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90" codeListValue="RI_412">distributor; distributeur</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <!-- [MINUMUM REQUIREMENT FOR FGP Y1 : WEB SERVICE. DUPLICATE FOR ANY OTHER ONLINE RESSOURCE USED]
+               [SERVICE WEB REQUIS AU MINIMUM POUR L'AN1 DE PGF. AJOUTER D'AUTRES SECTIONS AU BESOIN] -->
+            <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <!-- [XLS-Line ID-66] [SPECIFIC] [ENTRER THE URL OF THE ENGLISH WEB SERVICE / ÉCRIRE L'URL DU SERVICE WEB ANGLAIS] 
+                     [See HNAP document for formating / Voir le document HNAP pour le format à utiliser] -->
+                <gmd:URL>http://maps.geogratis.gc.ca/wms/eab_en?service=wms&amp;version=1.3.0&amp;request=GetCapabilities&amp;layers=emerald_ash_borer_reg_area&amp;legend_format=image/png&amp;feature_info_type=text/html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <!-- [XLS-Line ID-67] [SPECIFIC] [ENTRER THE PROTOCOL OF THE WEB SERVICE / ÉCRIRE LE PROTOCOLE DU SERVICE WEB] 
+                     [Use "OGC:WMS" or "ESRI REST: Map Service" / Utiliser "OGC:WMS" ou "ESRI REST: Map Service"] -->
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <!-- [XLS-Line ID-68] [SPECIFIC] [ENTER ENGLISH NAME FOR THE ENGLISH WEB SERVICE / ÉCRIRE LE NOM ANGLAIS DU SERVICE ANGLAIS] -->
+                <gco:CharacterString>English Web Service; CFIA - Emerald Ash Borer Regulated Areas</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <!-- [XLS-Line ID-69] [SPECIFIC] [ENTER FRENCH NAME FOR THE ENGLISH WEB SERVICE / ÉCRIRE LE NOM FRANÇAIS DU SERVICE ANGLAIS] -->
+                    <gmd:LocalisedCharacterString locale="#fra">Service Web en anglais; ACIA - Lieux réglementés pour l`agrile du frêne</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <!-- [XLS-Line ID-70] [SPECIFIC] [ENTER ENGLISH CONTENT_TYPE;FORMAT;LANGUAGE FOR THE ENGLISH WEB SERVICE / ÉCRIRE LE TYPE_DOCUMENT;FORMAT;LANGUE EN ANGLAIS DU SERVICE ANGLAIS]
+                     [REQUIRED BY TREASURY BOARD SECRETARY, SPELLING MISTAKES WILL PREVENT FILE TO BE PUBLISHED TO THE OPEN DATA PORTAL]
+                     [REQUIS PAR LE SECRÉTARIAT DU CONSEIL DU TRÉSOR, TOUTE FAUTE DE FRAPPE EMPÊCHERA LE FICHIER D'ÊTRE PUBLIÉ SUR LE SITE DE CANADA OUVERT]
+                     [Use "ContentType;Format;language(LIST HERE ALL THE LANGUAGES PRESENT IN THE SERVICE SEPERATED BY COMMAS)" format / Utiliser le format "Type;Format;Langue (INSCRIRE ICI
+					 TOUTES LES LANGUES PRÉSENTES DANS LE SERVICE SÉPARÉES PAR UNE VIRGULE"]
+                     [See HNAP document for valid values to use / Voir le document HNAP pour les valeurs à utiliser] -->
+                <gco:CharacterString>Web Service;WMS;eng</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <!-- [XLS-Line ID-71] [SPECIFIC] [ENTER FRENCH CONTENT_TYPE;FORMAT;LANGUAGE FOR THE ENGLISH WEB SERVICE / ÉCRIRE LE TYPE_DOCUMENT;FORMAT;LANGUE EN FRANÇAIS DU SERVICE ANGLAIS]
+                         [REQUIRED BY TREASURY BOARD SECRETARY, SPELLING MISTAKES WILL PREVENT FILE TO BE PUBLISHED TO THE OPEN DATA PORTAL]
+                         [REQUIS PAR LE SECRÉTARIAT DU CONSEIL DU TRÉSOR, TOUTE FAUTE DE FRAPPE EMPÊCHERA LE FICHIER D'ÊTRE PUBLIÉ SUR LE SITE DE CANADA OUVERT]
+                         [Use "ContentType;Format;language(LIST HERE ALL THE LANGUAGES PRESENT IN THE SERVICE SEPERATED BY COMMAS)" format / Utiliser le format "Type;Format;Langue (INSCRIRE ICI
+					     TOUTES LES LANGUES PRÉSENTES DANS LE SERVICE SÉPARÉES PAR UNE VIRGULE"]
+                         [See HNAP document for valid values to use / Voir le document HNAP pour les valeurs à utiliser] -->
+                     <gmd:LocalisedCharacterString locale="#fra">Service Web;WMS;eng</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine xlink:role="urn:xml:lang:fra-CAN">
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <!-- [XLS-Line ID-72] [SPECIFIC] [ENTRER THE URL OF THE FRENCH WEB SERVICE / ÉCRIRE L'URL DU SERVICE WEB FRANÇAIS] 
+                     [See HNAP document for formating / Voir le document HNAP pour le format à utiliser] -->
+                   <gmd:URL>http://cartes.geogratis.gc.ca/wms/eab_fr?service=wms&amp;version=1.3.0&amp;request=GetCapabilities&amp;layers=lieux_reg_agrile_du_frene&amp;legend_format=image/png&amp;feature_info_type=text/html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <!-- [XLS-Line ID-73] [SPECIFIC] [ENTRER THE PROTOCOL OF THE WEB SERVICE / ÉCRIRE LE PROTOCOLE DU SERVICE WEB] 
+                     [Use "OGC:WMS" or "ESRI REST: Map Service" / Utiliser "OGC:WMS" ou "ESRI REST: Map Service"] -->
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <!-- [XLS-Line ID-74] [SPECIFIC] [ENTER ENGLISH NAME FOR THE FRENCH WEB SERVICE / ÉCRIRE LE NOM ANGLAIS DU SERVICE FRANÇAIS] -->
+                <gco:CharacterString>French Web Service; CFIA - Emerald Ash Borer Regulated Areas</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <!-- [XLS-Line ID-75] [SPECIFIC] [ENTER FRENCH NAME FOR THE FRENCH WEB SERVICE / ÉCRIRE LE NOM FRANÇAIS DU SERVICE FRANÇAIS] -->
+                    <gmd:LocalisedCharacterString locale="#fra">Service Web en français; ACIA - Lieux réglementés pour l`agrile du frêne</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <!-- [XLS-Line ID-76] [SPECIFIC] [ENTER ENGLISH CONTENT_TYPE;FORMAT;LANGUAGE FOR THE FRENCH WEB SERVICE / ÉCRIRE LE TYPE_DOCUMENT;FORMAT;LANGUE EN ANGLAIS DU SERVICE FRANÇAIS]
+                     [REQUIRED BY TREASURY BOARD SECRETARY, SPELLING MISTAKES WILL PREVENT FILE TO BE PUBLISHED TO THE OPEN DATA PORTAL]
+                     [REQUIS PAR LE SECRÉTARIAT DU CONSEIL DU TRÉSOR, TOUTE FAUTE DE FRAPPE EMPÊCHERA LE FICHIER D'ÊTRE PUBLIÉ SUR LE SITE DE CANADA OUVERT]
+                     [Use "ContentType;Format;language(LIST HERE ALL THE LANGUAGES PRESENT IN THE SERVICE SEPERATED BY COMMAS)" format / Utiliser le format "Type;Format;Langue (INSCRIRE ICI
+					 TOUTES LES LANGUES PRÉSENTES DANS LE SERVICE SÉPARÉES PAR UNE VIRGULE"]
+                     [See HNAP document for valid values to use / Voir le document HNAP pour les valeurs à utiliser] -->
+                <gco:CharacterString>Web Service;WMS;fra</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <!-- [XLS-Line ID-77] [SPECIFIC] [ENTER FRENCH CONTENT_TYPE;FORMAT;LANGUAGE FOR THE FRENCH WEB SERVICE / ÉCRIRE LE TYPE_DOCUMENT;FORMAT;LANGUE EN FRANÇAIS DU SERVICE FRANÇAIS]
+                         [REQUIRED BY TREASURY BOARD SECRETARY, SPELLING MISTAKES WILL PREVENT FILE TO BE PUBLISHED TO THE OPEN DATA PORTAL]
+                         [REQUIS PAR LE SECRÉTARIAT DU CONSEIL DU TRÉSOR, TOUTE FAUTE DE FRAPPE EMPÊCHERA LE FICHIER D'ÊTRE PUBLIÉ SUR LE SITE DE CANADA OUVERT]
+                         [Use "ContentType;Format;language(LIST HERE ALL THE LANGUAGES PRESENT IN THE SERVICE SEPERATED BY COMMAS)" format / Utiliser le format "Type;Format;Langue (INSCRIRE ICI
+					     TOUTES LES LANGUES PRÉSENTES DANS LE SERVICE SÉPARÉES PAR UNE VIRGULE"]
+                         [See HNAP document for valid values to use / Voir le document HNAP pour les valeurs à utiliser] -->
+                    <gmd:LocalisedCharacterString locale="#fra">Service Web;WMS;fra</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</gmd:MD_Metadata>
